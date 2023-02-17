@@ -1,0 +1,19 @@
+=============== Oct 23, 2022 (PDT) ===============
+18:24:27.749931 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:24:27.757429 db@open opening
+18:24:27.757929 version@stat F·[] S·0B[] Sc·[]
+18:24:27.759429 db@janitor F·2 G·0
+18:24:27.759429 db@open done T·1.9997ms
+20:24:32.104924 db@close closing
+20:24:32.104924 db@close done T·0s
+=============== Oct 23, 2022 (PDT) ===============
+20:28:23.549415 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:28:23.553915 version@stat F·[] S·0B[] Sc·[]
+20:28:23.553915 db@open opening
+20:28:23.553915 journal@recovery F·1
+20:28:23.554414 journal@recovery recovering @1
+20:28:23.557918 version@stat F·[] S·0B[] Sc·[]
+20:28:23.569915 db@janitor F·2 G·0
+20:28:23.569915 db@open done T·16.0002ms
+20:33:28.337047 db@close closing
+20:33:28.337547 db@close done T·499.6µs

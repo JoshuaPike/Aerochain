@@ -1,0 +1,41 @@
+{
+    "name": "polygon-edge",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90127f90120f8469426d4e6b9d0e24c8c29fb009db4ba36838c82f071b0b779e7da478f32199fbc3b762ce3fe26362318d320e1eabab9b63dba4b42e27474367c7d2fdc78cd312eee7a774321e4f84694ba825cbc1dc313e759fb58563fe7d4c2a0fc1cc6b0aae8b8d44360e0a45666836d7b7f451eb0d935e0c5f94dd0d8b52ea96b37492a6fd6d99485bb1a4651d9017c810287c3f8469438f1730fb5668117e64f993bfa3575b8f6583a96b0a20fac49e7e04dd618a74424f3a09ca3091e5701b0af96f27c7c98ebc76c856519b7ab74eb2a98e094d280c1ed7a6ccbf846942dc98135b69d152ddedc160b7f49a3e4d1fa394db0b332e8d30a4764912c3dcd08492debe9fd8f1bb7a1e3f9d31d9cdd91dc295b86a06b9b3295b0af560fa97e620dad20ea80c28080",
+        "gasLimit": "0x500000",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {},
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 100,
+        "engine": {
+            "ibft": {
+                "epochSize": 100000,
+                "type": "PoA",
+                "validator_type": "bls"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/ip4/127.0.0.1/tcp/10001/p2p/16Uiu2HAmRvNYSYRtqGyQFsmTjjxjVbXrWAf5mTryK9ETZYwi2xd4",
+        "/ip4/127.0.0.1/tcp/20001/p2p/16Uiu2HAmFdSiCfXg1UPzuUzZndnKcfrhphV97W7EJjbYmEGDe8RG"
+    ]
+}
